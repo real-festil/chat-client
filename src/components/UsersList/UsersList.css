@@ -1,0 +1,38 @@
+.listContainer {
+  height: 60%;
+  width: 14%;
+  background: #fff;
+  border-left: 1px solid #2979ff;
+  border-radius: 4px 4px 0 0;
+  margin-left: 20px;
+}
+
+.usersListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2979ff;
+  border-radius: 4px 4px 0 0;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.listElement {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #353535;
+}
+
+.listElement span {
+  margin-left: 10px;
+}
